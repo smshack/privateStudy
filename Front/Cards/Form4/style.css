@@ -1,0 +1,67 @@
+@import 'http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css';
+*{
+    padding:0;
+    margin:0;
+    font-family: sans-serif;
+    list-style:none;
+    text-decoration:none;
+}
+body{
+    background:#9b59b6;
+}
+
+
+.card{
+    width:400px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    background:#f1f1f1;
+    transform: translate(-50%,-50%);
+    overflow:hidden;
+    box-shadow:0px 0px 20px #000000b3;
+}
+
+.card-header{
+    height:300px;
+    overflow:hidden;
+    position:relative;
+}
+.card-header img{
+    height: 100%;
+}
+
+.card-header .cover{
+    background:#9b59b6b3;
+    position:absolute;
+    top:0;
+    width:100%;
+    height:100%;
+}
+
+ion-icon{
+    position: absolute;
+    top:20px;
+    right:20px;
+    display:flex;
+    align-items: center;
+    color:white;
+    opacity:0.7;
+    font-size:32px;
+    cursor: pointer;
+
+}
+
+.card-header .name{
+    position: absolute;
+    bottom:20px;
+    left:20px;
+    color:white;
+    opacity:0.7;
+
+}
+
+.card-header .last{
+    display: block;
+    font-size:36px;
+}
